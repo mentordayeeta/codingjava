@@ -1,0 +1,1 @@
+p = input("Enter your number less the 10: ")
