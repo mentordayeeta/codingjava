@@ -6,5 +6,14 @@ class Performing {
         System.out.println(A-i);
         System.out.println(A*i);
         System.out.println(A/i);
+        float B=420;
+        float J=6769;
+        System.out.println(B+J);
+        System.out.println(B-J);
+        System.out.println(B*J);
+        System.out.println(B/J);
+        String C="Godzilla";
+        String K="saurus rex";
+        System.out.println(C+K);
     }
 }
