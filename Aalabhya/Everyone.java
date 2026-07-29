@@ -14,6 +14,8 @@ public class Everyone {
         System.out.println(character);
         boolean MHM=true;
         System.out.println(MHM);
+        double NEXTTIMETRYTHREELIVES=5;
+        System.out.println(NEXTTIMETRYTHREELIVES);
 
 
     }
