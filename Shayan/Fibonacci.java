@@ -13,9 +13,10 @@ class Fibonacci
         for (int i=1;i<=n;i++)
         {
             sum=a+b;
+            System.out.println(sum);
             a=b;
             b=a;
         }
-        System.out.println(sum);
+        
     }
 }
