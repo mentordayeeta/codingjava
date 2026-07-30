@@ -23,3 +23,5 @@ class CheckPrime {
 
 // Put for loop in a method
 // check whether prime is below 50 or above
+javac shayan
+java CheckPrime
