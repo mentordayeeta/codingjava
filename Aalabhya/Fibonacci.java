@@ -10,6 +10,9 @@ public class Fibonacci {
         start=newend;
         end=newstart+newend;
         System.out.println(start+end);
+        newstart=end;
+        newend=start+end;
+        System.out.println(newstart+newend);
 
 
     }
