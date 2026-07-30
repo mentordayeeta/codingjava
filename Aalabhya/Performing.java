@@ -6,8 +6,8 @@ class Performing {
         System.out.println(A-i);
         System.out.println(A*i);
         System.out.println(A/i);
-        float B=420;
-        float J=6769;
+        float B = 420.15f;
+        float J = 6769.67f;
         System.out.println(B+J);
         System.out.println(B-J);
         System.out.println(B*J);
