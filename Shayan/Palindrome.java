@@ -3,7 +3,7 @@
 import java.util.*;
 class Palindrome
 {
-    public static boolean isPalindrome(int g)
+    public static String isPalindrome()
      {
          Scanner y = new Scanner (System.in);
       int sum=0,a,b,temp;
@@ -17,14 +17,14 @@ class Palindrome
         k=k/10;
       }
       if (sum==temp)
-      System.out.println("palindrome number");
+      return "palindrome number";
       else
-      System.out.println("not a palindrome number");
+      return "not a palindrome number";
      
      }
     public static void main(String args[])
     {
         
-        System.out.println(isPalindrome(1));
+        System.out.println(isPalindrome());
     } 
 }
