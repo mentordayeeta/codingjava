@@ -6,17 +6,19 @@ public class OurMethods {
     //     int b = 10;
     //     System.out.println(a+b);
     // }
-    public static void multiply(int x, int y){
-        System.out.println(x*y);
-    }
+    
+    //Passing Parameters
+    // public static void multiply(int x, int y){ 
+    //     System.out.println(x*y);
+    // }
 
     public static void main(String[] args) {
         // addition(); // Calling a method
         System.out.println("My name is Dayeeta");
         // addition();
-        multiply(8, 10);
-        multiply(20, 10);
-        multiply(30, 190);
+        // multiply(8, 10); // Calling methods using parameters
+        // multiply(20, 10);
+        // multiply(30, 190);
     }
 }
 
