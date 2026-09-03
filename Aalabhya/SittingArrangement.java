@@ -14,9 +14,10 @@ public class SittingArrangement {
             System.out.println("Starting is larger than ending,try again.");
         } else if (start1 < end1) {
             System.out.println(((end1 - start1) + 1) + " seats are filled out of " + benchrow * benchcolumn);
-            if (start1 > 24 || end1 > 24)
-                ;
-            System.out.println("Too many seats!");
+            if (start1 > 24 || end1 > 24) {
+                System.out.println("Too many seats!");
+
+            }
         }
     }
 }
