@@ -6,15 +6,15 @@ public class Palindrome {
         Scanner var = new Scanner(System.in);
         System.out.println("Enter a number!:");
         int var1 = var.nextInt();
-        int origin=var1;
-        int reversal=0;
+        int lapseblue=var1;
+        int reversalred=0;
         while(var1!=0){
-            int digit=var1%10;
-            reversal=reversal*10+digit;
+            int digitend=var1%10;
+            reversalred=reversalred*10+digitend;
             var1=var1/10;
             
         }
-        if (origin==reversal){
+        if (lapseblue==reversalred){
             System.out.println("ITS A PALINDROME!YAYYYYYY!");
         }
         else{
